@@ -1,0 +1,32 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.psybergate.dev.milestone"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "psybergate_milestone_tracker",
+        "packageName": "com.psybergate.dev.milestone",
+        "packageFolder": "com/psybergate/dev/milestone",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "no",
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "YmE5ZmJlNjJiZWI5NjgxZGZjNDI3MDUyODI2YjM3MjcwNDViNzFjZmQ0MzQ4ODA0NDFlMGMxODA3ZDkxM2QwOWM4ZjIxMDlhNDRiNDk4Mzc5ZjYwYTBkZjAxZTMzN2MyOWU1ZjE0Mjc2NDU5NzlhYTc3MzE3MGU2ZWI3N2EwYjQ=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}

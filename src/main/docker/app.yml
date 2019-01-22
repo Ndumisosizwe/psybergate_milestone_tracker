@@ -1,0 +1,15 @@
+version: '2'
+services:
+    psybergate_milestone_tracker-app:
+        image: psybergate_milestone_tracker
+        environment:
+            - _JAVA_OPTIONS=-Xmx512m -Xms256m
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:mysql://psybergate_milestone_tracker-mysql:3306/psybergate_milestone_tracker?useUnicode=true&characterEncoding=utf8&useSSL=false
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 8080:8080
+    psybergate_milestone_tracker-mysql:
+        extends:
+            file: mysql.yml
+            service: psybergate_milestone_tracker-mysql
